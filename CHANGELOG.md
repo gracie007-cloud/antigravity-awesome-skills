@@ -9,6 +9,134 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+---
+
+## [3.4.0] - 2026-01-27 - "Voice Intelligence & Categorization"
+
+### Added
+
+- **New Skill**: `voice-ai-engine-development` - Complete toolkit for building real-time voice agents (OpenAI Realtime, Vapi, Deepgram, ElevenLabs).
+- **Categorization**: Major README update introducing a concise "Features & Categories" summary table.
+
+### Changed
+
+- **README**: Replaced text-heavy category lists with a high-level summary table.
+- **Registry**: Synced generic skill count (256) across documentation.
+
+### Contributors
+
+- [@sickn33](https://github.com/sickn33) - Voice AI Engine (PR #33)
+- [@community](https://github.com/community) - Categorization Initiative (PR #32)
+
+## [3.3.0] - 2026-01-26 - "News & Research"
+
+### Added
+
+- **New Skills**:
+  - `last30days`: Research any topic from the last 30 days on Reddit + X + Web.
+  - `daily-news-report`: Generate daily news reports from multiple sources.
+
+### Changed
+
+- **Registry**: Updated `skills_index.json` and `README.md` registry (Total: 255 skills).
+
+## [3.2.0] - 2026-01-26 - "Clarity & Consistency"
+
+### Changed
+
+- **Skills Refactoring**: Significant overhaul of `backend-dev-guidelines`, `frontend-design`, `frontend-dev-guidelines`, and `mobile-design`.
+  - **Consolidation**: Merged fragmented documentation into single, authoritative `SKILL.md` files.
+  - **Final Laws**: Introduced "Final Laws" sections to provide strict, non-negotiable decision frameworks.
+  - **Simplification**: Removed external file dependencies to improve context retrieval for AI agents.
+
+### Fixed
+
+- **Validation**: Fixed critical YAML frontmatter formatting issues in `seo-fundamentals`, `programmatic-seo`, and `schema-markup` that were blocking strict validation.
+- **Merge Conflicts**: Resolved text artifact conflicts in SEO skills.
+
+## [3.1.0] - 2026-01-26 - "Stable & Deterministic"
+
+### Fixed
+
+- **CI/CD Drift**: Resolved persistent "Uncommitted Changes" errors in CI by making the index generation script deterministic (sorting by name + ID).
+- **Registry Sync**: Synced `README.md` and `skills_index.json` to accurately reflect all 253 skills.
+
+### Added (Registry Restore)
+
+The following skills are now correctly indexed and visible in the registry:
+
+- **Marketing & Growth**: `programmatic-seo`, `schema-markup`, `seo-fundamentals`, `form-cro`, `popup-cro`, `analytics-tracking`.
+- **Security**: `windows-privilege-escalation`, `wireshark-analysis`, `wordpress-penetration-testing`, `writing-plans`.
+- **Development**: `tdd-workflow`, `web-performance-optimization`, `webapp-testing`, `workflow-automation`, `zapier-make-patterns`.
+- **Maker Tools**: `telegram-bot-builder`, `telegram-mini-app`, `viral-generator-builder`.
+
+### Changed
+
+- **Documentation**: Added `docs/CI_DRIFT_FIX.md` as a canonical reference for resolving drift issues.
+- **Guidance**: Updated `GETTING_STARTED.md` counts to match the full registry (253+ skills).
+- **Maintenance**: Updated `MAINTENANCE.md` with strict protocols for handling generated files.
+
+## [3.0.0] - 2026-01-25 - "The Governance Update"
+
+### Added
+
+- **Governance & Security**:
+  - `docs/QUALITY_BAR.md`: Defined 5-point validation standard (Metadata, Risk, Triggers).
+  - `docs/SECURITY_GUARDRAILS.md`: Enforced "Authorized Use Only" for offensive skills.
+  - `CODE_OF_CONDUCT.md`: Adhered to Contributor Covenant v2.1.
+- **Automation**:
+  - `scripts/validate_skills.py`: Automated Quality Bar enforcement (Soft Mode supported).
+  - `.github/workflows/ci.yml`: Automated PR checks.
+  - `scripts/generate_index.py`: Registry generation with Risk & Source columns.
+- **Experience**:
+  - `docs/BUNDLES.md`: 9 Starter Packs (Essentials, Security, Web, Agent, Game Dev, DevOps, Data, Testing, Creative).
+  - **Interactive Registry**: README now features Risk Levels (🔴/🟢/🟣) and Collections.
+- **Documentation**:
+  - `docs/EXAMPLES.md`: Cookbook with 3 real-world scenarios.
+  - `docs/SOURCES.md`: Legal ledger for attributions and licenses.
+  - `RELEASE_NOTES.md`: Generated release announcement (archived).
+
+### Changed
+
+- **Standardization**: All 250+ skills are now validated against the new Quality Bar schema.
+- **Project Structure**: Introduced `docs/` folder for scalable documentation.
+
+## [2.14.0] - 2026-01-25 - "Web Intelligence & Windows"
+
+### Added
+
+- **New Skill**:
+  - `context7-auto-research`: Auto-research capability for Claude Code.
+  - `codex-review`: Professional code review with AI integration.
+  - `exa-search`: Semantic search and discovery using Exa API.
+  - `firecrawl-scraper`: Deep web scraping and PDF parsing.
+  - `tavily-web`: Content extraction and research using Tavily.
+  - `busybox-on-windows`: UNIX tool suite for Windows environments.
+
+### Changed
+
+- **Documentation**: Updated `obsidian-clipper-template-creator` docs and templates.
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry.
+
+### Fixed
+
+- **Skills**: Fixed YAML frontmatter quoting in `lint-and-validate`.
+
+## [2.13.0] - 2026-01-24 - "NoSQL Expert"
+
+### Added
+
+- **New Skill**:
+  - `nosql-expert`: Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB), focusing on query-first modeling and anti-patterns.
+
+### Changed
+
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry.
+
+### Contributors
+
+- [@sickn33](https://github.com/sickn33) - PR #23
+
 ## [2.12.0] - 2026-01-23 - "Enterprise & UI Power"
 
 ### Added
