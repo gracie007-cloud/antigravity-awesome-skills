@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 856+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 857+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 856+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 857+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -16,7 +16,7 @@
 
 If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **856 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **857 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -38,7 +38,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 856+ Skills](#browse-856-skills)
+- [📚 Browse 857+ Skills](#browse-857-skills)
 - [🤝 How to Contribute](#how-to-contribute)
 - [🤝 Community](#community)
 - [☕ Support the Project](#support-the-project)
@@ -52,11 +52,11 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ## New Here? Start Here!
 
-**Welcome to the V5.2.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
+**Welcome to the V5.4.0 Workflows Edition.** This isn't just a list of scripts; it's a complete operating system for your AI Agent.
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 5.2.0) is a massive upgrade to your AI's capabilities.
+**Antigravity Awesome Skills** (Release 5.4.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -280,7 +280,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 856+ Skills
+## Browse 857+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 
@@ -379,6 +379,7 @@ This collection would not be possible without the incredible work of the Claude 
 - **[whatiskadudoing/fp-ts-skills](https://github.com/whatiskadudoing/fp-ts-skills)**: Practical fp-ts skills for TypeScript – fp-ts-pragmatic, fp-ts-react, fp-ts-errors (v4.4.0).
 - **[webzler/agentMemory](https://github.com/webzler/agentMemory)**: Source for the agent-memory-mcp skill.
 - **[sstklen/claude-api-cost-optimization](https://github.com/sstklen/claude-api-cost-optimization)**: Save 50-90% on Claude API costs with smart optimization strategies (MIT).
+- **[Wittlesus/cursorrules-pro](https://github.com/Wittlesus/cursorrules-pro)**: Professional .cursorrules configurations for 8 frameworks - Next.js, React, Python, Go, Rust, and more. Works with Cursor, Claude Code, and Windsurf.
 
 ### Inspirations
 
@@ -437,6 +438,8 @@ We officially thank the following contributors for their help in making this rep
 - [@ericgandrade](https://github.com/ericgandrade)
 - [@sohamganatra](https://github.com/sohamganatra)
 - [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan)
+- [@8hrsk](https://github.com/8hrsk)
+- [@Wittlesus](https://github.com/Wittlesus)
 
 ---
 
