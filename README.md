@@ -1,6 +1,6 @@
-# 🌌 Antigravity Awesome Skills: 857+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Antigravity Awesome Skills: 860+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
-> **The Ultimate Collection of 857+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
+> **The Ultimate Collection of 860+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
@@ -16,7 +16,7 @@
 
 If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **857 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**Antigravity Awesome Skills** is a curated, battle-tested library of **860 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -38,7 +38,7 @@ This repository provides essential skills to transform your AI assistant into a 
 - [🎁 Curated Collections (Bundles)](#curated-collections)
 - [🧭 Antigravity Workflows](#antigravity-workflows)
 - [📦 Features & Categories](#features--categories)
-- [📚 Browse 857+ Skills](#browse-857-skills)
+- [📚 Browse 860+ Skills](#browse-860-skills)
 - [🤝 How to Contribute](#how-to-contribute)
 - [🤝 Community](#community)
 - [☕ Support the Project](#support-the-project)
@@ -110,11 +110,12 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 | **Antigravity** | IDE  | `(Agent Mode) Use skill...`       | `.agent/skills/`  |
 | **Cursor**      | IDE  | `@skill-name (in Chat)`           | `.cursor/skills/` |
 | **Copilot**     | Ext  | `(Paste content manually)`        | N/A               |
-| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agent/skills/`  |
+| **OpenCode**    | CLI  | `opencode run @skill-name`        | `.agents/skills/`  |
 | **AdaL CLI**    | CLI  | `(Auto) Skills load on-demand`    | `.adal/skills/`   |
 
 > [!TIP]
 > **Universal Path**: We recommend cloning to `.agent/skills/`. Most modern tools (Antigravity, recent CLIs) look here by default.
+> **OpenCode Path Update**: opencode path is changed to `.agents/skills` for global skills. See [Place Files](https://opencode.ai/docs/skills/#place-files) directive on OpenCode Docs.
 
 > [!WARNING]
 > **Windows Users**: this repository uses **symlinks** for official skills.
@@ -144,8 +145,8 @@ npx antigravity-awesome-skills --gemini
 # Codex CLI
 npx antigravity-awesome-skills --codex
 
-# OpenCode (Universal)
-npx antigravity-awesome-skills
+# OpenCode
+npx antigravity-awesome-skills --path .agents/skills
 
 # Custom path
 npx antigravity-awesome-skills --path ./my-skills
@@ -171,8 +172,8 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skill
 # Cursor specific
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
 
-# OpenCode specific (Universal path)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+# OpenCode
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .agents/skills
 ```
 
 ---
@@ -280,7 +281,7 @@ The repository is organized into specialized domains to transform your AI into a
 
 Counts change as new skills are added. For the current full registry, see [CATALOG.md](CATALOG.md).
 
-## Browse 857+ Skills
+## Browse 860+ Skills
 
 We have moved the full skill registry to a dedicated catalog to keep this README clean.
 
