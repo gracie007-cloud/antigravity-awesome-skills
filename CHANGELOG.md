@@ -7,6 +7,141 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.3.1] - 2026-02-25 - "Validation & Multi-Protocol Hotfix"
+
+> **"Hotfix release to restore missing skills, correct industrial risk labels, and harden validation across the registry."**
+
+This release fixes critical validation errors introduced in previous PRs, ensures full compliance with the strict CI registry checks, and restores two high-demand developer skills.
+
+## 🚀 New Skills
+
+### 🧩 [chrome-extension-developer](skills/chrome-extension-developer/)
+
+**Expert in building Chrome Extensions using Manifest V3.**
+Senior expertise in modern extension architecture, focusing on Manifest V3, service workers, and production-ready security practices.
+
+- **Key Feature 1**: Comprehensive coverage of Manifest V3 service workers and lifecycle.
+- **Key Feature 2**: Production-ready patterns for cross-context message passing.
+
+> **Try it:** `Help me design a Manifest V3 extension that monitors network requests using declarativeNetRequest.`
+
+### ☁️ [cloudflare-workers-expert](skills/cloudflare-workers-expert/)
+
+**Senior expertise for serverless edge computing on Cloudflare.**
+Specialized in edge architectures, performance optimization, and the full Cloudflare developer ecosystem (Wrangler, KV, D1, R2).
+
+- **Key Feature 1**: Optimized patterns for 0ms cold starts and edge-side storage.
+- **Key Feature 2**: Implementation guides for Durable Objects and R2 storage integration.
+
+> **Try it:** `Build a Cloudflare Worker that modifies response headers and caches fragmented data in KV.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 946+ high-performance skills.
+- **Validation Hardening**: Resolved missing "When to Use" sections for 11 critical skills (Andru.ia, Logistics, Energy).
+- **Risk Label Corrections**: Corrected risk levels to `safe` for `linkedin-cli`, `00-andruia-consultant`, and `20-andruia-niche-intelligence`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@itsmeares** for PR #139 validation fixes and "When to Use" improvements.
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [6.3.0] - 2026-02-25 - "Agent Discovery & Operational Excellence"
+
+> **Feature release: AgentFolio discovery skill, LinkedIn CLI automation, Evos operational skills, Andru.ia consulting roles, and hardened validation for new contributors.**
+
+## 🚀 New Skills
+
+### 🔍 [agentfolio](skills/agentfolio/)
+
+**Discover and research autonomous AI agents.**
+Skill for discovering and researching autonomous AI agents, tools, and ecosystems using the AgentFolio directory.
+
+- **Key Feature 1**: Discover agents for specific use cases.
+- **Key Feature 2**: Collect concrete examples and benchmarks for agent capabilities.
+
+> **Try it:** `Use AgentFolio to find 3 autonomous AI agents focused on code review.`
+
+### 💼 [linkedin-cli](skills/linkedin-cli/)
+
+**Automate LinkedIn operations via CLI.**
+CLI-based LinkedIn automation skill using `@linkedapi/linkedin-cli` for profile enrichment, outreach, Sales Navigator, and workflow execution.
+
+- **Key Feature 1**: Fetch profiles and search people/companies.
+- **Key Feature 2**: Manage connections and send messages via Sales Navigator.
+
+> **Try it:** `Use linkedin-cli to search for PMs in San Francisco.`
+
+### 🚀 [appdeploy](skills/appdeploy/)
+
+**Deploy full-stack web apps.**
+Deploy web apps with backend APIs, database, and file storage via an HTTP API to get an instant public URL.
+
+- **Key Feature 1**: Chat-native deployment orchestrator.
+- **Key Feature 2**: Support for frontend-only and frontend+backend architectures.
+
+> **Try it:** `Deploy this React-Vite dashboard using appdeploy.`
+
+### 🐹 [grpc-golang](skills/grpc-golang/)
+
+**Production-grade gRPC patterns in Go.**
+Build robust microservices communication using Protobuf with mTLS, streaming, and observability configurations.
+
+- **Key Feature 1**: Standardize API contracts with Protobuf and Buf.
+- **Key Feature 2**: Implement service-to-service authentication and structured metrics.
+
+> **Try it:** `Use grpc-golang to define a user service streaming endpoint with mTLS.`
+
+### 📦 [logistics-exception-management](skills/logistics-exception-management/)
+
+**Expertise for handling freight and carrier disputes.**
+Deeply codified operational playbook for handling shipping exceptions, delays, damages, and claims. Part of the Evos operational domain expertise suite. Additional skills: `carrier-relationship-management`, `customs-trade-compliance`, `inventory-demand-planning`, `production-scheduling`, `returns-reverse-logistics`, `energy-procurement`, `quality-nonconformance`.
+
+- **Key Feature 1**: Provides escalation protocols and severity classification for exceptions.
+- **Key Feature 2**: Delivers templates and decision frameworks for claim management across various delivery modes.
+
+> **Try it:** `We have a delayed LTL shipment for a key customer, how should we handle it per logistics-exception-management?`
+
+### 🏗️ [00-andruia-consultant](skills/00-andruia-consultant/)
+
+**Spanish-language solutions architect.**
+Diagnóstica y traza la hoja de ruta óptima para proyectos de IA en español. Additional skills: `20-andruia-niche-intelligence`.
+
+- **Key Feature 1**: Proporciona entrevistas de diagnóstico para proyectos desde cero o existentes.
+- **Key Feature 2**: Propone el escuadrón de expertos necesario y genera artefactos de backlog en español.
+
+> **Try it:** `Actúa como 00-andruia-consultant y diagnostica este nuevo workspace.`
+
+## 📦 Improvements
+
+- **Validation & Quality Bar**:
+  - Normalised `risk:` labels for new skills to conform to the allowed set (`none`, `safe`, `critical`, `offensive`, `unknown`).
+  - Added explicit `## When to Use` sections to new operational and contributor skills to keep the registry strictly compatible with `python3 scripts/validate_skills.py --strict`.
+- **Interactive Web App**:
+  - Auto-updating local web app launcher and **Interactive Prompt Builder** enhancements (PR #137) now ship as part of the v6.3.0 baseline.
+- **Registry**:
+  - Validation Chain (`npm run chain` + `npm run validate:strict`) runs clean at 6.3.0 with all new skills indexed in `skills_index.json`, `data/catalog.json`, and `CATALOG.md`.
+
+## 👥 Credits
+
+- **@bobrenze-bot** for proposing the AgentFolio integration (Issue #136).
+- **@vprudnikoff** for the `linkedin-cli` skill (PR #131).
+- **@Onsraa** for the Bevy ECS documentation update around Require Components (PR #132).
+- **@Abdulrahmansoliman** for the AdaL CLI README instructions (PR #133).
+- **@avimak** for the `appdeploy` deployment skill (PR #134).
+- **@HuynhNhatKhanh** for the gRPC Go production patterns skill (PR #135).
+- **@zinzied** for the auto-updating web app launcher & Interactive Prompt Builder (PR #137).
+- **@nocodemf** for the Evos operational domain skills (PR #138).
+
+---
+
 ## [6.2.0] - 2026-02-24 - "Interactive Web App & AWS IaC"
 
 > **Feature release: Interactive Skills Web App, AWS Infrastructure as Code skills, and Chrome Extension / Cloudflare Workers developer skills.**
@@ -369,6 +504,8 @@ This release significantly upgrades our 3D visualization capabilities with a com
 - **[@Krishna-hehe](https://github.com/Krishna-hehe)** - Advanced Three.js skill overhaul (PR #78).
 
 ---
+
+## [5.2.0] - 2026-02-13 - "Podcast Generation & Azure AI Skills"
 
 > **New AI capabilities: Podcast Generation, Azure Identity, and Self-Evolving Agents.**
 
